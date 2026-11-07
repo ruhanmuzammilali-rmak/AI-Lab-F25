@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What Wi-Fi frequency is required?",
+    "doc": "wifi",
+    "evidence": "Most of our smart home hubs only support 2.4GHz Wi-Fi networks",
+    "split": "val"
+  },
+  {
+    "q": "How long should I hold the reset button?",
+    "doc": "reset",
+    "evidence": "press and hold the button for exactly fifteen seconds",
+    "split": "val"
+  },
+  {
+    "q": "How long are clips saved in the basic plan?",
+    "doc": "camera",
+    "evidence": "The basic cloud tier retains motion events for seven days",
+    "split": "val"
+  },
+  {
+    "q": "Can the thermostat run on batteries?",
+    "doc": "thermostat",
+    "evidence": "this unit requires a C-wire for continuous power and will not function on batteries alone.",
+    "split": "val"
+  },
+  {
+    "q": "Why can't I use lithium batteries in the lock?",
+    "doc": "lock",
+    "evidence": "Lithium batteries are strictly prohibited because they may deliver a voltage spike",
+    "split": "test"
+  },
+  {
+    "q": "How do I fix an E73 error?",
+    "doc": "thermostat",
+    "evidence": "this unit requires a C-wire for continuous power and will not function on batteries alone.",
+    "split": "test"
+  },
+  {
+    "q": "What happens if my camera loses internet?",
+    "doc": "camera",
+    "evidence": "The basic cloud tier retains motion events for seven days",
+    "split": "test"
+  },
+  {
+    "q": "How do I connect to a hidden network?",
+    "doc": "wifi",
+    "evidence": "Most of our smart home hubs only support 2.4GHz Wi-Fi networks",
+    "split": "test"
+  },
+  {
+    "q": "What is the weather like tomorrow?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  },
+  {
+    "q": "Who is the CEO of the company?",
+    "doc": null,
+    "evidence": null,
+    "split": "test"
+  }
+]
